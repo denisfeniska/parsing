@@ -8,8 +8,8 @@ with open("test_stepik_course/2.html", encoding='utf8') as file:
 s = str(src)
 
 
-codes_array = re.findall(r"(?<=<code>).{0,}(?=</code>)", s)
-code_array = ' '.join(codes_array)
+regex = '<code>(.*?)</code>'
+l = sorted(re.findall(regex, s)) #это список всех совпадений
 
-print(Counter(code_array))
+print(Counter(l))
 
