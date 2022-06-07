@@ -2,7 +2,7 @@ import re
 from collections import Counter
 
 
-with open("test_stepik_course/2.html", encoding='utf8') as file:
+with open("test_stepik_course/html and bs4/2.html", encoding='utf8') as file:
     src = file.read()
 
 s = str(src)

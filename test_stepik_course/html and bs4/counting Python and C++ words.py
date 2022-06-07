@@ -1,6 +1,6 @@
 # Посчитать на странице, каких слов больше(С++ или Python)
 
-with open("test_stepik_course/1.html", encoding='utf8') as file:
+with open("test_stepik_course/html and bs4/1.html", encoding='utf8') as file:
     src = file.read()
 
 text = str(src)
